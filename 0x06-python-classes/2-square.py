@@ -7,7 +7,7 @@ class Square:
     def __init__(self, size=0):
         """constructor
 
-        arguments:
+        args:
             size: length of square's side
 
         raises:
