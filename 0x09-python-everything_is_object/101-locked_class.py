@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""defines a lockedclass"""
+"""defines a locked class"""
 class LockedClass:
     """
     prevents user from instantiating new lockedclass attr
-    for anything but the attr called "first name"
+    for anything but attr called 'first name'
     """
     __slots__ = ["first name"]
