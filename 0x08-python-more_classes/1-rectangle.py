@@ -4,8 +4,8 @@ class Rectangle:
     """rep of a rectangle"""
     def __init__(self, width=0, height=0):
         """initializes rectangle"""
-        self.width = width
         self.height = height
+        self.width = width
 
     @property
     def width(self):
