@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+i#!/usr/bin/python3
 """defines class rectangle"""
 
 
@@ -12,7 +12,7 @@ class Rectangle:
     @property
     def width(self):
         """getter for the private instance attribute width"""
-        return self.width
+        return self.__width
 
     @width.setter
     def width(self, value):
