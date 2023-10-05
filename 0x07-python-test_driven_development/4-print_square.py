@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """module for print_square method"""
 
+
 def print_square(size):
     """method for printing a square with # characters
     Args:
@@ -14,6 +15,7 @@ def print_square(size):
     if size < 0:
         raise ValueError("size must be >= 0")
     print((("#" * size + "\n") * size), end="")
+
 
 if __name__ == "__main__":
     import doctest
