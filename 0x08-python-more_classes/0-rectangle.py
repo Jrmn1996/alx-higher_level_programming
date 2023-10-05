@@ -4,6 +4,6 @@ defines empty class rectangle
 """
 
 
-class rectangle:
+class Rectangle:
     """Empty representation of rectangle"""
     pass
