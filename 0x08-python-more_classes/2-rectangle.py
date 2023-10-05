@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """defines class rectangle"""
+
+
 class Rectangle:
     """rep of a rectangle"""
     def __init__(self, width=0, height=0):
@@ -10,7 +12,8 @@ class Rectangle:
     @property
     def width(self):
         """getter for the private instance attribute width"""
-        return self.width
+        return self.__width
+
     @width.setter
     def width(self, value):
         """setter for the private instance attribute width"""
@@ -24,6 +27,7 @@ class Rectangle:
     def height(self):
         """getter for the private instance attribute height"""
         return self.__height
+
     @height.setter
     def height(self, value):
         """setter for the private instance attribute height"""
