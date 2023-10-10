@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""defines load_from_json_file func"""
+"""defines to_json_string func"""
 
 
 import json
 
 
-def load_from_json_file(filename):
-    """creates an obj from json file"""
-    with open(filename, 'r', encoding="utf-8") as f:
-        return json.load(f)
+def to_json_string(my_obj):
+    """returns json representaion of an obj"""
+    return json.dumps(my_obj)
