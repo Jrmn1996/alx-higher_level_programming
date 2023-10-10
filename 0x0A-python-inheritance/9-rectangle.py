@@ -16,6 +16,6 @@ class Rectangle(BaseGeometry):
             """method that claculates area of rectangle"""
             return self.__width * self.__height
 
-        def __str__(self):
+    def __str__(self):
             """str representation method"""
             return "[Rectangle] " + str(self.__width) + "/" + str(self.__height)
