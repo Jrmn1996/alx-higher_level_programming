@@ -2,6 +2,7 @@
 """module for base class"""
 from json import dumps, loads
 
+
 class Base:
     """rep of the base of our OOP hierarchy"""
 
