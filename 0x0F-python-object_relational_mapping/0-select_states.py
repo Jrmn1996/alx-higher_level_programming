@@ -2,14 +2,10 @@
 """script lists all states from a database"""
 
 import MySQLdb
-from sys import argv, exit
+import sys
 
 if __name__ == "__main__":
     
-    if len(argv) != 4:
-        print("Usage: {:s} <username> <password> <database>".format(argv[0]))
-        exit(1)
-
     database = MySQLdb.Connect(user=argv[1],
                                passwd=argv[2],
                                db=argv[3],
