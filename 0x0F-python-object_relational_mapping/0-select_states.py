@@ -13,7 +13,8 @@ if __name__ == "__main__":
     password = argv[2]
     dataBase = argv[3]
 
-    database = MySQLdb.Connect(user=username,
+    database = MySQLdb.Connect(host="localhost"
+                               user=username,
                                passwd=password,
                                db=dataBase,
                                port=3306)
