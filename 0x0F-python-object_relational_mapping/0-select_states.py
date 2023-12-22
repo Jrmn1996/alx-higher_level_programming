@@ -10,10 +10,6 @@ if __name__ == "__main__":
         print("Usage: {:s} <username> <password> <database>".format(argv[0]))
         exit(1)
 
-    username = argv[1]
-    password = argv[2]
-    dataBase = argv[3]
-
     database = MySQLdb.Connect(user=argv[1],
                                passwd=argv[2],
                                db=argv[3],
