@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""script lists all states from a database"""
+"""script lists all states from hbtn_0e_0_usa"""
 
 import MySQLdb
 import sys
@@ -14,7 +14,7 @@ if __name__ == "__main__":
     password = argv[2]
     dataBase = argv[3]
 
-    database = MySQLdb.Connect(host="localhost"
+    database = MySQLdb.Connect(
                                user=username,
                                passwd=password,
                                db=dataBase,
