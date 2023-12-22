@@ -6,7 +6,8 @@ import sys
 
 if __name__ == "__main__":
     
-    database = MySQLdb.Connect(user=argv[1],
+    database = MySQLdb.Connect(host="localhost"
+                               user=argv[1],
                                passwd=argv[2],
                                db=argv[3],
                                port=3306)
