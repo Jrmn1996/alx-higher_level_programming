@@ -8,6 +8,8 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 
 class State(Base):
+    """class with id and name attributes of each state
+    """
     __tablename__ = 'states'
     id = Column(Integer,
                 autoincrement=True,
