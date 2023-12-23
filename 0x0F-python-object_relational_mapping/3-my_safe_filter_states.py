@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """script takes in args and displays all values in the states table of
-hbtn_0e_0_usa where name matches the arg write one that is safe from 
+hbtn_0e_0_usa where name matches the arg write one that is safe from
 MySQL injections"""
 
 import sys
